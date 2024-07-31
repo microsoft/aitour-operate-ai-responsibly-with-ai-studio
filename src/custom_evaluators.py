@@ -7,7 +7,7 @@ from opentelemetry.trace import set_span_in_context
 from promptflow.client import load_flow
 
 model_config = AzureOpenAIModelConfiguration(
-        azure_deployment="gpt-4",
+        azure_deployment==os.environ["AZURE_OPENAI_4_EVAL_DEPLOYMENT_NAME"],
         api_version=os.environ["AZURE_OPENAI_API_VERSION"],
         azure_endpoint=os.environ["AZURE_OPENAI_ENDPOINT"]
     )
@@ -17,11 +17,14 @@ model_config = AzureOpenAIModelConfiguration(
 # coherence_eval = load_flow(source="api/evaluate/prompty/coherence.prompty", model={"configuration": model_config})
 # relevance_eval = load_flow(source="api/evaluate/prompty/relevance.prompty", model={"configuration": model_config})
 friendliness_eval = load_flow(source="api/evaluate/prompty/friendliness.prompty", model={"configuration": model_config})
+seo_eval = load_flow(source="api/evaluate/prompty/seo.prompty", model={"configuration": model_config})
+
 
 class ArticleEvaluator:
     def __init__(self, model_config):
         self.evaluators = [
-            friendliness_eval
+            friendliness_eval,
+            seo_eval
         ]
 
     def __call__(self, *, response: str, **kwargs):

@@ -111,20 +111,14 @@ def evaluate_orchestrator(model_config, data_path):
     results_df = pd.DataFrame.from_dict(eval_results)
     print(results_df)
 
-    """mean_df = results_df.drop("request", axis=1).mean()
-    print("\nAverage scores:")
-    print(mean_df)
+    # Convert DataFrame to Markdown string
+    results_df_str = results_df.to_markdown(index=False)
 
-    results_df.to_markdown(folder + '/eval_results.md')
-    with open(folder + '/eval_results.md', 'a') as file:
-        file.write("\n\nAverages scores:\n\n")
-    mean_df.to_markdown(folder + '/eval_results.md', 'a')
-    """
-
-    results_df_str = results_df.to_markdown()
+    # Write the Markdown string to a file
     with open(folder + '/eval_results.md', 'w') as file:
         file.write(results_df_str)
 
+    # Write the eval_results to a JSONL file
     with jsonlines.open(folder + '/eval_results.jsonl', 'w') as writer:
         writer.write(eval_results)
 

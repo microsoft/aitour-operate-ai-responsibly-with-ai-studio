@@ -1,0 +1,51 @@
+---
+name: SEO Evaluator
+description: SEO Evaluator assess how well the articles are optimized for search engines.
+model:
+  api: chat
+  configuration:
+    type: azure_openai
+    azure_deployment: ${env:AZURE_OPENAI_4_EVAL_DEPLOYMENT_NAME} 
+    api_version: ${env:AZURE_OPENAI_API_VERSION}
+    azure_endpoint: ${env:AZURE_OPENAI_ENDPOINT}
+  parameters:
+    temperature: 0.1
+    response_format: { "type": "text" }
+inputs:
+  response:
+    type: string
+outputs:
+  score:
+    type: int
+  explanation:
+    type: string
+---
+
+system:
+Assess how well the articles are optimized for search engines. Rate the SEO optimization of the articles between one to five stars using the following scale:
+
+One star: poor
+
+Two stars: below average
+
+Three stars: average
+
+Four stars: above average
+
+Five stars: excellent
+
+Please assign a rating between 1 and 5 based on the SEO optimization of the response.
+
+**Example 1**
+generated_query: Our company sells the best products. Check out our website for more information. We have many great options available.
+output: 
+{"score": 1, "explanation": "Lacks target keywords, no meta descriptions or headers, and has minimal SEO elements."}
+**Example 2**
+generated_query: Discover the latest trends in technology with our wide range of high-quality products. Visit our site today to explore our extensive selection, designed to meet your every need. Our customers rave about the reliability and innovation of our top-rated items, making us the go-to choice for tech enthusiasts. 
+output: 
+{"score": 5, "explanation": "Perfectly optimized for SEO with strategic keyword use, compelling meta descriptions, structured headers, and effective internal and external links."}
+
+
+**Here the actual conversation to be scored:**
+generated_query: {{response}}
+output:
