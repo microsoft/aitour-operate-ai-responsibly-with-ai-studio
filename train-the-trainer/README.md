@@ -1,8 +1,3 @@
-## TODO:
-Update this page as you see fit to properly train a future presenter of your content. A past train the trainer repo is included below for your assitance, but feel free to make any changes.
-
-Note: Please make sure to update any links within the markdown so they point to the correct file.
-
 ## How To Use
 
 Welcome,
@@ -16,16 +11,6 @@ code.
 2.  Watch the video presentation
 3.  Ask questions of the Lead Presenter
 
-## File Summary
-
-| Resources          | Links                            | Description |
-|-------------------|----------------------------------|-------------------|
-| PowerPoint        | - [Presentation](presentations.md) | Slides |
-| PPT Recording     | - [Presentation](https://globaleventcdn.blob.core.windows.net/assets/data/data10/DATA10.mp4) | Video Recording of the PowerPoint slides with no audio |
-| Videos            | - [Microsoft Ignite Orlando Recording](https://myignite.techcommunity.microsoft.com/sessions/84354) | Example Presetations of this Session |
-| Demos             | - [Demo 1 - Exploring a Modern Data Warehouse](demos/README.md#demo-1---exploring-a-modern-data-warehouse) | Additional Demo Content | 
-| Demo Recordings           | - [Data10 - Prequisites](https://globaleventcdn.blob.core.windows.net/assets/data/data10/Data10_Prerequisites-NoAudio.mp4) | Recording of the Demo Live 1 | 
-| Demo Recordings           | - [Data10 - Demo](https://globaleventcdn.blob.core.windows.net/assets/data/data10/Data10-Demo-NoAudio.mp4 ) | Recording of the Demo Live 2 | 
 
 ## Get Started
 
@@ -33,37 +18,41 @@ This training repository is divided in to the following sections:
 
 | [Slides](#slides) | [Demos](demos/README.md) | [Deployment](deployment/README.md) | 
 |-------------------|---------------------------|--------------------------------------
-| 28 slides - 30 minutes| 1 demos - 15 minutes | Demo setup
+| 27 slides - 45 minutes| 8 demos | Demo setup
 
 ## Slides
 
-The [slides](presentations.md) have presenter notes in each part of the session
+The [slides](https://microsoft.sharepoint.com/:p:/t/EventSessionUploads/EeZ6oDXP0UNJl9vvt65s_5cB7euJeZEjEQU9Nk_FAI6iLg?e=rbmP7D) have presenter notes in each part of the session
 
 ### Timing
 
 | Time        | Description 
 --------------|-------------
 0:00 - 5:00   | Intro to the session 
-5:00 - 15:00  | Why Modern Data Warehousing
-15:00 - 20:00 | Building the Modern data warehouse
-20:00 - 35:00 | Designing a modern data warehouse solution
-35:00 - 40:00 | The evolution of cloud scale analytics
+5:00 - 10:00 | Multi-Agent Creative Writing Copilot
+10:00 - 20:00 | Red Team
+20:00 - 35:00 | Measure and Mitigate
+35:00 - 40:00 | Operate
 40:00 - 45:00 | Session review
 
 ## Deployment / Preparation
 
 >**What's Here?** Deploying the demo environment on Azure - including the prerequisites.
 
-[Instructions and prerequisites are outlined here](deployment/README.md). 
+[Instructions and prerequisites are outlined here](https://github.com/Azure-Samples/agent-openai-python-prompty/tree/aca-openai-agent). For this session, only complete the **Getting Started** and **Deployment** sections.
 
 
 ## Demos
 
 > **What's Here?** Pre-delivery preparation, stage ready videos, required files (such as JSON templates), and walk-through videos
 
-Detailed explanations of each demonstration associated with this presentation can be found in this section. There are 3 "live from stage" technical demonstrations that utilize a number of tools both in and out of Azure. [You can get a high level overview of the tools and how we will be using them here](demos/README.md).
-
 | Demo 	                                                                                               | Minutes | Video |
 -------------------------------------------------------------------------------------------------------|---------|----------------- | 
-|  [1 - Exploring a Modern Data Warehouse](demos/README.md#demo-1---exploring-a-modern-data-warehouse) | 15       | [Link](https://globaleventcdn.blob.core.windows.net/assets/data/data10/Data10-Demo-NoAudio.mp4) |
+|  1 - Content Filtering | TBD       | [Link](https://www.microsoft.com) |
+|  2 - Performance and quality evaluation with built-in evaluators | TBD       | [Link](https://www.microsoft.com) |
+|  3 - Evaluation with custom evaluators | TBD       | [Link](https://www.microsoft.com) |
+|  4 - Risk and safety evaluation with built-in evaluators | TBD       | [Link](https://www.microsoft.com) |
+|  5 - Add safety message to agent Prompty files | TBD       | [Link](https://www.microsoft.com) |
+|  6 - Evaluation with GitHub Actions in a DevOps Pipeline | TBD       | [Link](https://www.microsoft.com) |
+|  7 - App Insights Dashboard | TBD       | [Link](https://www.microsoft.com) |
 
