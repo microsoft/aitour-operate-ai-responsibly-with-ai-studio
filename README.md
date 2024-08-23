@@ -1,7 +1,5 @@
 # Operationalize AI responsibly with Azure AI Studio
 
-This repo is intended as a template for Microsoft AI Tour repositories
-
 ## Session Description
 
 Explore Azure AI Studio’s new tools for generative AI security, privacy, and quality. Shift from reactive risk management to agile, responsible-by-design governance for better observability and efficiency.
