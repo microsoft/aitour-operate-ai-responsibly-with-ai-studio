@@ -10,7 +10,13 @@ code.
 1.  Read document in its entirety.
 2.  Watch the video presentation
 3.  Ask questions of the Lead Presenter
+## File Summary
 
+| Resources          | Links                            | Description |
+|-------------------|----------------------------------|-------------------|
+| PowerPoint        | Coming soon | Slides |
+| PPT Recording     | Coming soon | Video Recording of the PowerPoint slides with no audio |
+| Videos            | [Microsoft Build Recording](https://www.youtube.com/watch?v=FHeVBfqelts&t=1470s) | Example presentation of the session during Microsoft |
 
 ## Get Started
 
