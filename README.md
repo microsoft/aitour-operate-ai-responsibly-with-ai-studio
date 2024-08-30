@@ -14,9 +14,9 @@ Explore Azure AI Studio’s new tools for generative AI security, privacy, and q
 - Promptflow Evaluation SDK
 - Prompty
 - Azure App Insights
+- Github Actions
 
 ## Additional Resources and Continued Learning
-
 
 Links                             | Description        |
 |:----------------------------------|:-------------------|
@@ -34,6 +34,13 @@ Links                             | Description        |
         <sub><b>April Speight
 </b></sub></a><br />
             <a href="https://github.com/aprilspeight" title="talk">📢</a> 
+    </td>
+    <td align="center"><a href="http://learnanalytics.microsoft.com">
+        <img src="https://github.com/amynic.png" width="100px;" alt="Amy Boyd
+"/><br />
+        <sub><b>Amy Boyd
+</b></sub></a><br />
+            <a href="https://github.com/amynic" title="talk">📢</a> 
     </td>
 </tr></table>
 
