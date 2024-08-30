@@ -2,14 +2,15 @@
 
 Welcome,
 
-We're glad you are here and look forward to your delivery of this amazing content. As an experienced presenter, we know you know HOW to present so this guide will focus on WHAT you need to present. It will provide you a full run-through of the presentation created by the presentation design team. 
+We're glad you are here and look forward to your delivery of this amazing content. As an experienced presenter, we know you know HOW to present so this guide will focus on WHAT you need to present. It will provide you a full run-through of the presentation created by the presentation design team.
 
 Along with the video of the presentation, this document will link to all the assets you need to successfully present including PowerPoint slides and demo instructions &
 code.
 
-1.  Read document in its entirety.
-2.  Watch the video presentation
-3.  Ask questions of the Lead Presenter
+1. Read this document in its entirety.
+2. Watch the video presentation
+3. Ask questions of the Lead Presenter
+
 ## File Summary
 
 | Resources          | Links                            | Description |
@@ -45,8 +46,7 @@ The [slides](https://microsoft.sharepoint.com/:p:/t/EventSessionUploads/EeZ6oDXP
 
 >**What's Here?** Deploying the demo environment on Azure - including the prerequisites.
 
-[Instructions and prerequisites are outlined here](https://github.com/Azure-Samples/agent-openai-python-prompty/tree/aca-openai-agent). For this session, only complete the **Getting Started** and **Deployment** sections.
-
+[Instructions and prerequisites are outlined here](https://github.com/Azure-Samples/contoso-creative-writer?tab=readme-ov-file). For this session, only complete the **Getting Started** and **Deployment** sections.
 
 ## Demos
 
