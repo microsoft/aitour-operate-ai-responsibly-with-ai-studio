@@ -29,7 +29,7 @@ This training repository is divided in to the following sections:
 
 ## Slides
 
-The [slides](https://microsoft.sharepoint.com/:p:/t/EventSessionUploads/EeZ6oDXP0UNJl9vvt65s_5cB7euJeZEjEQU9Nk_FAI6iLg?e=rbmP7D) have presenter notes in each part of the session
+The [slides](https://aka.ms/AAs1zub) have presenter notes in each part of the session
 
 ### Timing
 
@@ -54,11 +54,11 @@ The [slides](https://microsoft.sharepoint.com/:p:/t/EventSessionUploads/EeZ6oDXP
 
 | Demo 	                                                                                               | Minutes | Video |
 -------------------------------------------------------------------------------------------------------|---------|----------------- | 
-|  0 - Creative Writing Agent | 1       | [Link](https://www.microsoft.com) |
-|  1 - Content Filtering | 2       | [Link](https://www.microsoft.com) |
-|  2 - Performance and quality evaluation with built-in evaluators | 5       | [Link](https://www.microsoft.com) |
+|  0 - Creative Writing Agent | 1       | [Link to video, no audio](https://aka.ms/AAs1zua) |
+|  1 - Content Filtering | 2       | [Link to video, no audio](https://aka.ms/AAs1s40) |
+|  2 - Performance and quality evaluation with built-in evaluators | 5       | [Link to video, no audio](https://aka.ms/AAs1s41) |
 |  3 - Evaluation with custom evaluators | TBD       | [Link](https://www.microsoft.com) |
-|  4 - Risk and safety evaluation with built-in evaluators | 3       | [Link](https://www.microsoft.com) |
-|  5 - Add safety message to agent Prompty files | 1       | [Link](https://www.microsoft.com) |
+|  4 - Risk and safety evaluation with built-in evaluators | 3       | [Link to video, no audio](https://aka.ms/AAs1zu9) |
+|  5 - Add safety message to agent Prompty files | 1       | [Link to video, no audio](https://aka.ms/AAs1kev) |
 |  6 - Evaluation with GitHub Actions in a DevOps Pipeline | TBD       | [Link](https://www.microsoft.com) |
 |  7 - App Insights Dashboard | TBD       | [Link](https://www.microsoft.com) |
