@@ -54,11 +54,11 @@ The [slides](https://microsoft.sharepoint.com/:p:/t/EventSessionUploads/EeZ6oDXP
 
 | Demo 	                                                                                               | Minutes | Video |
 -------------------------------------------------------------------------------------------------------|---------|----------------- | 
-|  0 - Creative Writing Agent | TBD       | [Link](https://www.microsoft.com) |
-|  1 - Content Filtering | TBD       | [Link](https://www.microsoft.com) |
-|  2 - Performance and quality evaluation with built-in evaluators | TBD       | [Link](https://www.microsoft.com) |
+|  0 - Creative Writing Agent | 1       | [Link](https://www.microsoft.com) |
+|  1 - Content Filtering | 2       | [Link](https://www.microsoft.com) |
+|  2 - Performance and quality evaluation with built-in evaluators | 5       | [Link](https://www.microsoft.com) |
 |  3 - Evaluation with custom evaluators | TBD       | [Link](https://www.microsoft.com) |
-|  4 - Risk and safety evaluation with built-in evaluators | TBD       | [Link](https://www.microsoft.com) |
-|  5 - Add safety message to agent Prompty files | TBD       | [Link](https://www.microsoft.com) |
+|  4 - Risk and safety evaluation with built-in evaluators | 3       | [Link](https://www.microsoft.com) |
+|  5 - Add safety message to agent Prompty files | 1       | [Link](https://www.microsoft.com) |
 |  6 - Evaluation with GitHub Actions in a DevOps Pipeline | TBD       | [Link](https://www.microsoft.com) |
 |  7 - App Insights Dashboard | TBD       | [Link](https://www.microsoft.com) |
