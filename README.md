@@ -9,12 +9,12 @@ Explore Azure AI Studio’s new tools for generative AI security, privacy, and q
 - Gain actionable guidance to help your company develop more safe, trustworthy generative AI apps
 
 ## Technology Used
-- Azure AI Studio
-- Azure AI Content Safety
-- Promptflow Evaluation SDK
-- Prompty
-- Azure App Insights
-- Github Actions
+- [Azure AI Studio](https://learn.microsoft.com/azure/ai-studio/)
+- [Azure AI Content Safety](https://learn.microsoft.com/azure/ai-services/content-safety/)
+- [Promptflow Evaluation SDK](https://learn.microsoft.com/azure/ai-studio/how-to/develop/flow-evaluate-sdk)
+- [Prompty](https://prompty.ai/)
+- [Azure App Insights](https://learn.microsoft.com/azure/azure-monitor/app/app-insights-overview)
+- [Github Actions](https://docs.github.com/actions)
 
 ## Additional Resources and Continued Learning
 
