@@ -33,7 +33,7 @@ Links                             | Description        |
 "/><br />
         <sub><b>April Speight
 </b></sub></a><br />
-            <a href="https://github.com/aprilspeight" title="talk">📢</a> 
+            <a href="https://github.com/aprilspeight" title="Lead Presenter">📢</a> 
     </td>
     <td align="center"><a href="http://learnanalytics.microsoft.com">
         <img src="https://github.com/amynic.png" width="100px;" alt="Amy Boyd
@@ -41,6 +41,14 @@ Links                             | Description        |
         <sub><b>Amy Boyd
 </b></sub></a><br />
             <a href="https://github.com/amynic" title="talk">📢</a> 
+    </td>
+    </td>
+    <td align="center"><a href="http://learnanalytics.microsoft.com">
+        <img src="https://github.com/gdequeiroz.png" width="100px;" alt="Gabriela de Queiroz
+"/><br />
+        <sub><b>Gabriela de Queiroz
+</b></sub></a><br />
+            <a href="https://github.com/gdequeiroz" title="talk">📢</a> 
     </td>
 </tr></table>
 
