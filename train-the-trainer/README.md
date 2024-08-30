@@ -15,7 +15,7 @@ code.
 
 | Resources          | Links                            | Description |
 |-------------------|----------------------------------|-------------------|
-| PowerPoint        | [Presentation](https://aka.ms/AAryyth) | Slides |
+| PowerPoint        | [Presentation](https://aka.ms/AAs1zub) | Slides |
 | PPT Recording     | Coming soon | Video Recording of the PowerPoint slides with no audio |
 | Videos            | [Microsoft Build Recording](https://www.youtube.com/watch?v=FHeVBfqelts&t=1470s) | Example presentation of the session during Microsoft |
 

@@ -5,10 +5,12 @@
 Explore Azure AI Studio’s new tools for generative AI security, privacy, and quality. Shift from reactive risk management to agile, responsible-by-design governance for better observability and efficiency.
 
 ## Learning Outcomes
+
 - Azure AI is the vanguard for responsible AI tools
 - Gain actionable guidance to help your company develop more safe, trustworthy generative AI apps
 
 ## Technology Used
+
 - [Azure AI Studio](https://learn.microsoft.com/azure/ai-studio/)
 - [Azure AI Content Safety](https://learn.microsoft.com/azure/ai-services/content-safety/)
 - [Promptflow Evaluation SDK](https://learn.microsoft.com/azure/ai-studio/how-to/develop/flow-evaluate-sdk)
@@ -54,7 +56,7 @@ Links                             | Description        |
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-## Responsible AI 
+## Responsible AI
 
 Microsoft is committed to helping our customers use our AI products responsibly, sharing our learnings, and building trust-based partnerships through tools like Transparency Notes and Impact Assessments. Many of these resources can be found at [https://aka.ms/RAI](https://aka.ms/RAI).
 Microsoft’s approach to responsible AI is grounded in our AI principles of fairness, reliability and safety, privacy and security, inclusiveness, transparency, and accountability.
