@@ -58,7 +58,7 @@ The [slides](https://aka.ms/AAs1zub) have presenter notes in each part of the se
 |  1 - Content Filtering | 2       | [Link](https://aka.ms/AAs1s40) |
 |  2 - Performance and quality evaluation with built-in evaluators | 5       | [Link](https://aka.ms/AAs1s41) |
 |  3 - Evaluation with custom evaluators | TBD       | [Link](https://www.microsoft.com) |
-|  4 - Risk and safety evaluation with built-in evaluators | 3       | [Link](https://aka.ms/AAs1zu9) |
+|  4 - [Risk and safety evaluation with built-in evaluators](demo4-risk-safety-evaluation.md) | 3       | [Link](https://aka.ms/AAs1zu9) |
 |  5 - [Add safety message to agent Prompty files](demo5-safety-message.md) | 1       | [Link](https://aka.ms/AAs1kev) |
 |  6 - Evaluation with GitHub Actions in a DevOps Pipeline | TBD       | [Link](https://www.microsoft.com) |
 |  7 - App Insights Dashboard | TBD       | [Link](https://www.microsoft.com) |
