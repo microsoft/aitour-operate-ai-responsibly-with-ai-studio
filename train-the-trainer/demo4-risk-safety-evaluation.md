@@ -4,6 +4,9 @@ The goal of this demo is demonstrate the built in ```ContentSafetyEvaluator``` c
 
 Before starting, make sure you have completed the [Deployment](/train-the-trainer/README.md#deployment--preparation) steps
 
+> [!NOTE]
+> Currently uou must have your deployment running in East US 2 data center and the Azure AI Studio project be in that location too for this demo to run
+
 ## Demo delivery tips
 
 > [!NOTE]
