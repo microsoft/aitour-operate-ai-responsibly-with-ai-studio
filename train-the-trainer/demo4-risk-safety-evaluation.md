@@ -36,3 +36,5 @@ Before starting, make sure you have completed the [Deployment](/train-the-traine
 ![Show formatted output](/train-the-trainer/img/review-formatted-output.png)
 6. Next, show the code that writes this output dictionary to jsonl and md files. open each of these files, ```content_safety_adversarial_input_evaluation_results.jsonl``` and ```content_safety_adversarial_input_evaluation_results.md``` to demonstrate the output
 7. Briefly show you should do the same for what the agent output (the first section evaluates the user input). Discuss the results shown.
+
+Back to all [Demo Instructions](/train-the-trainer/README.md#demos)

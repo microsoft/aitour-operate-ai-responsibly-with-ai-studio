@@ -15,3 +15,5 @@ Before starting, make sure you have completed the [Deployment](/train-the-traine
 3. Find the [safety_system_message.prompty](../src/safety_system_message.prompty) file in **this repo** and copy its contents into the ```writer.prompty``` file in the creative writing agent solution
 
 ![Safety system message added to the writer.prompty](/train-the-trainer/img/writer-prompty-with-safety-messages.png)
+
+Back to all [Demo Instructions](/train-the-trainer/README.md#demos)
