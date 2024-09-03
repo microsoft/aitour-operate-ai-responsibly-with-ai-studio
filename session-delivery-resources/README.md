@@ -57,7 +57,7 @@ The [slides](https://aka.ms/AAs1zub) have presenter notes in each part of the se
 | Demo 	                                                                                               | Minutes | Video |
 -------------------------------------------------------------------------------------------------------|---------|----------------- | 
 |  0 - Creative Writing Agent | 1       | [Link](https://aka.ms/AAs1zua) |
-|  1 - Content Filtering | 2       | [Link](https://aka.ms/AAs1s40) |
+|  1 - [Content Filtering](demo1-content-filtering.md) | 2       | [Link](https://aka.ms/AAs1s40) |
 |  2 - Performance and quality evaluation with built-in evaluators | 5       | [Link](https://aka.ms/AAs1s41) |
 |  3 - Evaluation with custom evaluators | TBD       | [Link](https://www.microsoft.com) |
 |  4 - [Risk and safety evaluation with built-in evaluators](demo4-risk-safety-evaluation.md) | 3       | [Link](https://aka.ms/AAs1zu9) |
