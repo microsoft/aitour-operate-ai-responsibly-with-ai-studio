@@ -23,7 +23,7 @@ code.
 
 ## Get Started
 
-This training repository is divided in to the following sections:
+This repository is designed to help you deliver this session and is divided in to the following sections:
 
 | [Slides](#slides) | [Demos](demos/README.md) | [Deployment](deployment/README.md) | 
 |-------------------|---------------------------|--------------------------------------

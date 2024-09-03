@@ -2,7 +2,7 @@
 
 The goal of this demo is to add safety prompts to the write agents prompty file. Initially the prompty lacks safety and behavioral guardrails, which are crucial for preventing the generation of harmful content. By adding safety prompts, you’ve introduced an essential layer of risk mitigation, ensuring that the Creative Writing Copilot is better equipped to avoid producing harmful content. This includes instructions to steer clear of harmful content, ungrounded fabrications, copyright infringements, jailbreaks, and manipulative content.
 
-Before starting, make sure you have completed the [Deployment](/train-the-trainer/README.md#deployment--preparation) steps
+Before starting, make sure you have completed the [Deployment](/session-delivery-resources/README.md#deployment--preparation) steps
 
 
 ## Demo delivery tips
@@ -14,6 +14,6 @@ Before starting, make sure you have completed the [Deployment](/train-the-traine
 2. Open the file to find a standard prompty file and navigate down to the 'Final Instructions' section. Below this is where you will paste the safety messages, before the 'user:' section
 3. Find the [safety_system_message.prompty](../src/safety_system_message.prompty) file in **this repo** and copy its contents into the ```writer.prompty``` file in the creative writing agent solution
 
-![Safety system message added to the writer.prompty](/train-the-trainer/img/writer-prompty-with-safety-messages.png)
+![Safety system message added to the writer.prompty](/session-delivery-resources/img/writer-prompty-with-safety-messages.png)
 
-Back to all [Demo Instructions](/train-the-trainer/README.md#demos)
+Back to all [Demo Instructions](/session-delivery-resources/README.md#demos)
