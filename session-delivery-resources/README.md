@@ -17,7 +17,7 @@ code.
 
 | Resources          | Links                            | Description |
 |-------------------|----------------------------------|-------------------|
-| PowerPoint        | [Presentation](https://aka.ms/AAs1zub) | Slides |
+| PowerPoint        | [Presentation](https://aka.ms/AAs1zub) | Slides, [Additional Languages](#powerpoint-slides-in-additional-languages) |
 | PPT Recording     | Coming soon | Video Recording of the PowerPoint slides with no audio |
 | Videos            | [Microsoft Build Recording](https://www.youtube.com/watch?v=FHeVBfqelts&t=1470s) | Example presentation of the session during Microsoft |
 
@@ -44,6 +44,12 @@ The [slides](https://aka.ms/AAs1zub) have presenter notes in each part of the se
 35:00 - 40:00 | Operate
 40:00 - 45:00 | Session review
 
+### PowerPoint Slides in additional languages
+| Language | Last updated | 
+|------------------- | ---- |
+| Coming soon | --- | 
+
+
 ## Deployment / Preparation
 
 >**What's Here?** Deploying the demo environment on Azure - including the prerequisites.
@@ -64,3 +70,11 @@ The [slides](https://aka.ms/AAs1zub) have presenter notes in each part of the se
 |  5 - [Add safety message to agent Prompty files](demo5-safety-message.md) | 1       | [Link](https://aka.ms/AAs1kev) |
 |  6 - Evaluation with GitHub Actions in a DevOps Pipeline | TBD       | [Link](https://www.microsoft.com) |
 |  7 - App Insights Dashboard | TBD       | [Link](https://www.microsoft.com) |
+
+## Change Log
+
+Here is a log of the changes made to this file:
+
+| Date       | Changes |
+|------------|---------|
+| 2024.09.16 | Added Change log, Additional language section with *coming soon* notice |
