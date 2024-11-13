@@ -20,6 +20,15 @@ Explore Azure AI Studio’s new tools for generative AI security, privacy, and q
 - [Azure App Insights](https://learn.microsoft.com/azure/azure-monitor/app/app-insights-overview)
 - [Github Actions](https://docs.github.com/actions)
 
+## Required Quota
+
+| Model Name            | Model Version | SKU Name         | Capacity |
+|------------------------|--------------|------------------------|---------------|
+| gpt-35-turbo          | 1106          | Standard         | 20       |
+| text-embedding-ada-002| 2             | Standard         | 20       |
+| gpt-4o                | 2024-05-13    | GlobalStandard   | 20       |
+| gpt-4                 | 0613          | Standard         | 10       |
+
 ## Additional Resources and Continued Learning
 
 Links                             | Description        |
