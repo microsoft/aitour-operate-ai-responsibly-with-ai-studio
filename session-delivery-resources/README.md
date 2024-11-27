@@ -27,7 +27,7 @@ This repository is designed to help you deliver this session and is divided in t
 
 | [Slides](#slides) | [Demos](#demos) | [Deployment](#deployment--preparation) | 
 |-------------------|---------------------------|--------------------------------------
-| 27 slides - 45 minutes| 8 demos | Demo setup
+| 45 slides - 45 minutes| 10 demos | Demo setup
 
 ## Slides
 
@@ -38,11 +38,13 @@ The [slides](https://aka.ms/AAs1zub) have presenter notes in each part of the se
 | Time        | Description 
 --------------|-------------
 0:00 - 5:00   | Intro to the session 
-5:00 - 10:00 | Multi-Agent Creative Writing Copilot
-10:00 - 20:00 | Red Team
-20:00 - 35:00 | Measure and Mitigate
-35:00 - 40:00 | Operate
-40:00 - 45:00 | Session review
+5:00 - 8:00   | Multi-Agent Creative Writing Copilot
+08:00 - 10:00 | Govern
+10:00 - 14:00 | Map
+14:00 - 24:00 | Mitigate
+24:00 - 36:00 | Measure
+36:00 - 42:00 | Operate
+42:00 - 45:00 | Session review
 
 ### PowerPoint Slides in additional languages
 | Language | Last updated | 
@@ -52,24 +54,37 @@ The [slides](https://aka.ms/AAs1zub) have presenter notes in each part of the se
 
 ## Deployment / Preparation
 
->**What's Here?** Deploying the demo environment on Azure - including the prerequisites.
+[Instructions and prerequisites are outlined here](https://github.com/Azure-Samples/contoso-creative-writer/tree/trustworthy-ai-demo?tab=readme-ov-file#vs-code-dev-containers). 
 
-[Instructions and prerequisites are outlined here](https://github.com/Azure-Samples/contoso-creative-writer?tab=readme-ov-file). For this session, only complete the **Getting Started** and **Deployment** sections.
+**Only** use the **trustworthy-ai-demo** branch and deploy using the **VS Code Dev Containers** instructions. Multiple people have consistently encountered errors or quota issues when deploying via GitHub Codespaces. When deploying in VS Code, ensure that you are on the **trusthworthy-ai-demo** branch as it does not default to that branch. You should **only** use the **Sweden Central** region for this sample. For this session, only complete the **Getting Started**, **Deployment**, **Testing the Sample**, and **Evaluating Results** sections.
+
+Prior to testing the sample or running evaluation results, you will need to modify the `azure_deployment` listed in the following agent promptys (located at `src/api/agents`):
+- writer
+- researcher
+- product
+
+The `azure_deployment` should be `gpt-4o` given that `gpt-4o-mini` is not a valid deployment name in this sample. You're welcome to manually execute a `gpt-4o-mini` deployment for a faster demo experience, however `gpt-4o` will suffice. Please note that `azd up` will **not** deploy a `gpt-4o-mini` deployment for you.
+
+Evalutations can take anywhere from 10 mins - 30 mins. Therefore, it's suggested to have already completed the evaluation runs **prior** to starting the session. The current dataset includes 11 text inputs and 8 images. You can trim the number of examples to 3 text and 2 images for a shorter run time.
+
+For text evaluation, remove rows in `src/api/evaluate/eval_inputs.jsonl`.
+
+For images evaluation, update `/src/api/evaluate/evaluate.py`, to `range(1,4)` for the line `for image_num in range(1, 9):` (currently line 458).
 
 ## Demos
 
-> **What's Here?** Pre-delivery preparation, stage ready videos, required files (such as JSON templates), and walk-through videos
-
 | Demo 	                                                                                               | Minutes | Video |
 -------------------------------------------------------------------------------------------------------|---------|----------------- | 
-|  0 - [Creative Writing Agent](demo0-creative-writing-agent.md) | 1       | [Link](https://aka.ms/AAs1zua) |
-|  1 - [Content Filtering](demo1-content-filtering.md) | 2       | [Link](https://aka.ms/AAs1s40) |
-|  2 - [Performance and quality evaluation with built-in evaluators](demo2-performance-and-quality-evaluation-with-built-in-evaluators.md) | 5       | [Link](https://aka.ms/AAs1s41) |
-|  3 - Evaluation with custom evaluators | TBD       | [Link](https://www.microsoft.com) |
-|  4 - [Risk and safety evaluation with built-in evaluators](demo4-risk-safety-evaluation.md) | 3       | [Link](https://aka.ms/AAs1zu9) |
-|  5 - [Add safety message to agent Prompty files](demo5-safety-message.md) | 1       | [Link](https://aka.ms/AAs1kev) |
-|  6 - Evaluation with GitHub Actions in a DevOps Pipeline | TBD       | [Link](https://www.microsoft.com) |
-|  7 - App Insights Dashboard | TBD       | [Link](https://www.microsoft.com) |
+|  0 - Multi-Agent Creative Writer |        |  |
+|  1 - Model Catalog]         |  |
+|  2 - Evaluate Models with Your Own Data |        | |
+|  3 - System Message |       |  |
+|  4 - Custom Evaluator |        |  |
+|  5 - Local Evaluation |        |  |
+|  6 - Cloud Evaluation |       | |
+|  7 - Image Evaluation |       | |
+|  8 - GitHub Actions |       | |
+|  9 - Online Evaluation & App Insights |       | |
 
 ## Change Log
 
@@ -78,3 +93,4 @@ Here is a log of the changes made to this file:
 | Date       | Changes |
 |------------|---------|
 | 2024.09.16 | Added Change log, Additional language section with *coming soon* notice |
+| 2024.11.27 | Updated Session Delivery Resources README.md |
