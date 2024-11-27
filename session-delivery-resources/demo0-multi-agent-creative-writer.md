@@ -15,6 +15,3 @@ The goal of this demo is to demonstrate the Contoso Creative Writer app, which u
 1. Open the deployed solution and navigate to the Creative Writing Agent app.
 2. In the app, show the user interface and the different sections available.
 3. Walk through the process of entering user instructions and following the agent workflow to generate an article.
-
-
-Back to all [Demo Instructions](/session-delivery-resources/README.md#demos)
