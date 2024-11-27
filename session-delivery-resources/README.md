@@ -76,7 +76,7 @@ For images evaluation, update `/src/api/evaluate/evaluate.py`, to `range(1,4)` f
 | Demo 	                                                                                               | Minutes | Video |
 -------------------------------------------------------------------------------------------------------|---------|----------------- | 
 |  0 - Multi-Agent Creative Writer |        |  |
-|  1 - Model Catalog]         |  |
+|  1 - Model Catalog         |  |
 |  2 - Evaluate Models with Your Own Data |        | |
 |  3 - System Message |       |  |
 |  4 - Custom Evaluator |        |  |
