@@ -18,8 +18,7 @@ code.
 | Resources          | Links                            | Description |
 |-------------------|----------------------------------|-------------------|
 | PowerPoint        | [Presentation](https://aka.ms/AAs1zub) | Slides, [Additional Languages](#powerpoint-slides-in-additional-languages) |
-| PPT Recording     | Coming soon | Video Recording of the PowerPoint slides with no audio |
-| Videos            | [Microsoft Build Recording](https://www.youtube.com/watch?v=FHeVBfqelts&t=1470s) | Example presentation of the session during Microsoft |
+| Videos            | [Microsoft Ignite Recording]([https://www.youtube.com/watch?v=FHeVBfqelts&t=1470s](https://ignite.microsoft.com/sessions/BRK113?source=sessions)) | Example of a similar version of this session |
 
 ## Get Started
 
