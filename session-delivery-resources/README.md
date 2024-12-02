@@ -88,3 +88,4 @@ Here is a log of the changes made to this file:
 |------------|---------|
 | 2024.09.16 | Added Change log, Additional language section with *coming soon* notice |
 | 2024.11.27 | Updated Session Delivery Resources README.md |
+| 2024.12.02 | Add links to demos and slide deck |
