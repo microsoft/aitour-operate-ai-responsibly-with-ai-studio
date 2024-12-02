@@ -17,7 +17,7 @@ code.
 
 | Resources          | Links                            | Description |
 |-------------------|----------------------------------|-------------------|
-| PowerPoint        | [Presentation](https://aka.ms/AAs1zub) | Slides, [Additional Languages](#powerpoint-slides-in-additional-languages) |
+| PowerPoint        | [Presentation](https://aka.ms/AAryyth) | Slides |
 | Videos            | [Microsoft Ignite Recording](https://ignite.microsoft.com/sessions/BRK113?source=sessions) | Example of a similar version of this session |
 
 ## Get Started
@@ -30,7 +30,7 @@ This repository is designed to help you deliver this session and is divided in t
 
 ## Slides
 
-The [slides](https://aka.ms/AAs1zub) have presenter notes in each part of the session
+The [slides](https://aka.ms/AAryyth) have presenter notes in each part of the session
 
 ### Timing
 
@@ -45,26 +45,21 @@ The [slides](https://aka.ms/AAs1zub) have presenter notes in each part of the se
 36:00 - 42:00 | Operate
 42:00 - 45:00 | Session review
 
-### PowerPoint Slides in additional languages
-| Language | Last updated | 
-|------------------- | ---- |
-| Coming soon | --- | 
-
-
 ## Deployment / Preparation
 
 [Instructions and prerequisites are outlined here](https://github.com/Azure-Samples/contoso-creative-writer/tree/trustworthy-ai-demo?tab=readme-ov-file#vs-code-dev-containers). 
 
-**Only** use the **trustworthy-ai-demo** branch and deploy using the **VS Code Dev Containers** instructions. Multiple people have consistently encountered errors or quota issues when deploying via GitHub Codespaces. When deploying in VS Code, ensure that you are on the **trusthworthy-ai-demo** branch as it does not default to that branch. You should **only** use the **Sweden Central** region for this sample. For this session, only complete the **Getting Started**, **Deployment**, **Testing the Sample**, and **Evaluating Results** sections.
+**Only** use the **trustworthy-ai-demo** branch. Deploying locally is recommended as multiple people have consistently encountered errors or quota issues when deploying via GitHub Codespaces. When deploying in VS Code, ensure that you are on the **trusthworthy-ai-demo** branch as it does not default to that branch. You should **only** use the **Sweden Central** region for this sample. For this session, only complete the **Getting Started**, **Deployment**, **Testing the Sample**, and **Evaluating Results** sections.
 
 Prior to testing the sample or running evaluation results, you will need to modify the `azure_deployment` listed in the following agent promptys (located at `src/api/agents`):
+
 - writer
 - researcher
 - product
 
 The `azure_deployment` should be `gpt-4o` given that `gpt-4o-mini` is not a valid deployment name in this sample. You're welcome to manually execute a `gpt-4o-mini` deployment for a faster demo experience, however `gpt-4o` will suffice. Please note that `azd up` will **not** deploy a `gpt-4o-mini` deployment for you.
 
-Evalutations can take anywhere from 10 mins - 30 mins. Therefore, it's suggested to have already completed the evaluation runs **prior** to starting the session. The current dataset includes 11 text inputs and 8 images. You can trim the number of examples to 3 text and 2 images for a shorter run time.
+Evaluations can take anywhere from 3 mins - 30 mins. Therefore, it's suggested to have already completed the evaluation runs **prior** to starting the session. The current dataset includes 11 text inputs and 8 images. You can trim the number of examples to 3 text and 2 images for a shorter run time.
 
 For text evaluation, remove rows in `src/api/evaluate/eval_inputs.jsonl`.
 
@@ -74,16 +69,16 @@ For images evaluation, update `/src/api/evaluate/evaluate.py`, to `range(1,4)` f
 
 | Demo 	                                                                                               | Minutes | Video |
 -------------------------------------------------------------------------------------------------------|---------|----------------- | 
-|  0 - Multi-Agent Creative Writer |        |  |
-|  1 - Model Catalog         |  |
-|  2 - Evaluate Models with Your Own Data |        | |
-|  3 - System Message |       |  |
-|  4 - Custom Evaluator |        |  |
-|  5 - Local Evaluation |        |  |
-|  6 - Cloud Evaluation |       | |
-|  7 - Image Evaluation |       | |
-|  8 - GitHub Actions |       | |
-|  9 - Online Evaluation & App Insights |       | |
+|  0 - Multi-Agent Creative Writer |  1:21      |[aka.ms/AAtl1ag](https://aka.ms/AAtl1ag)  |
+|  1 - Model Catalog         |1:54  |[aka.ms/AAtk56m](https://aka.ms/AAtk56m)|
+|  2 - Evaluate Models with Your Own Data |  1:35      |[aka.ms/AAtkk2a](https://aka.ms/AAtkk2a) |
+|  3 - System Message |   0:37    |[aka.ms/AAtl1al](https://aka.ms/AAtl1al)  |
+|  4 - Custom Evaluator |  0:15      |[aka.ms/AAtk56k](https://aka.ms/AAtk56k)  |
+|  5 - Local Evaluation |  1:18      |[aka.ms/AAtl1ah](https://aka.ms/AAtl1ah)  |
+|  6 - Cloud Evaluation |  1:48     |[aka.ms/AAtl1ae](https://aka.ms/AAtl1ae) |
+|  7 - Image Evaluation |  1:40     |[aka.ms/AAtk56o](https://aka.ms/AAtk56o) |
+|  8 - GitHub Actions |   0:56    |[aka.ms/AAtk56n](https://aka.ms/AAtk56n) |
+|  9 - Online Evaluation & App Insights |  1:38     |[aka.ms/AAtkk27](https://aka.ms/AAtkk27) |
 
 ## Change Log
 
