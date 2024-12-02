@@ -1,10 +1,10 @@
 # Demo 8 - GitHub Actions
 
-The goal of this demo is to demonstrate the ability to leverage GitHub Actions to run an evaluation when new code is committed.
+The goal of this demo is to demonstrate the ability to leverage GitHub Actions to run an evaluation when new code is committed to the repository.
 
 ## Demo delivery tips
 
-You can two options for delivering this demo:
+You have two options for delivering this demo:
 
 **Option One**: You can play the recording for this demo and narrate the steps that are begin taken in the video. Follow the speaker notes provided for guidance.
 
