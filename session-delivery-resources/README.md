@@ -10,15 +10,15 @@ Along with the video of the presentation, this document will link to all the ass
 code.
 
 1. Read this document in its entirety.
-2. Watch the video presentation
-3. Ask questions of the Lead Presenter
+1. Watch the video presentation
+1. Ask questions of the Lead Presenter
 
 ## File Summary
 
 | Resources          | Links                            | Description |
 |-------------------|----------------------------------|-------------------|
 | PowerPoint        | [Presentation](https://aka.ms/AAs1zub) | Slides, [Additional Languages](#powerpoint-slides-in-additional-languages) |
-| Videos            | [Microsoft Ignite Recording]([https://www.youtube.com/watch?v=FHeVBfqelts&t=1470s](https://ignite.microsoft.com/sessions/BRK113?source=sessions)) | Example of a similar version of this session |
+| Videos            | [Microsoft Ignite Recording](https://ignite.microsoft.com/sessions/BRK113?source=sessions) | Example of a similar version of this session |
 
 ## Get Started
 
