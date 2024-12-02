@@ -69,16 +69,16 @@ For images evaluation, update `/src/api/evaluate/evaluate.py`, to `range(1,4)` f
 
 | Demo 	                                                                                               | Minutes | Video |
 -------------------------------------------------------------------------------------------------------|---------|----------------- | 
-|  0 - Multi-Agent Creative Writer |  1:21      |[aka.ms/AAtl1ag](https://aka.ms/AAtl1ag)  |
-|  1 - Model Catalog         |1:54  |[aka.ms/AAtk56m](https://aka.ms/AAtk56m)|
-|  2 - Evaluate Models with Your Own Data |  1:35      |[aka.ms/AAtkk2a](https://aka.ms/AAtkk2a) |
-|  3 - System Message |   0:37    |[aka.ms/AAtl1al](https://aka.ms/AAtl1al)  |
-|  4 - Custom Evaluator |  0:15      |[aka.ms/AAtk56k](https://aka.ms/AAtk56k)  |
-|  5 - Local Evaluation |  1:18      |[aka.ms/AAtl1ah](https://aka.ms/AAtl1ah)  |
-|  6 - Cloud Evaluation |  1:48     |[aka.ms/AAtl1ae](https://aka.ms/AAtl1ae) |
-|  7 - Image Evaluation |  1:40     |[aka.ms/AAtk56o](https://aka.ms/AAtk56o) |
-|  8 - GitHub Actions |   0:56    |[aka.ms/AAtk56n](https://aka.ms/AAtk56n) |
-|  9 - Online Evaluation & App Insights |  1:38     |[aka.ms/AAtkk27](https://aka.ms/AAtkk27) |
+|  0 - [Multi-Agent Creative Writer](/session-delivery-resources/demo0-multi-agent-creative-writer.md) |  1:21      |[aka.ms/AAtl1ag](https://aka.ms/AAtl1ag)  |
+|  1 - [Model Catalog](/session-delivery-resources/demo1-model-catalog.md)         |1:54  |[aka.ms/AAtk56m](https://aka.ms/AAtk56m)|
+|  2 - [Evaluate Models with Your Own Data](/session-delivery-resources/demo2-evaluate-models-own-data.md) |  1:35      |[aka.ms/AAtkk2a](https://aka.ms/AAtkk2a) |
+|  3 - [System Message](/session-delivery-resources/demo3-system-message.md) |   0:37    |[aka.ms/AAtl1al](https://aka.ms/AAtl1al)  |
+|  4 - [Custom Evaluator](/session-delivery-resources/demo4-custom-evaluator.md) |  0:15      |[aka.ms/AAtk56k](https://aka.ms/AAtk56k)  |
+|  5 - [Local Evaluation](/session-delivery-resources/demo5-local-evaluation.md) |  1:18      |[aka.ms/AAtl1ah](https://aka.ms/AAtl1ah)  |
+|  6 - [Cloud Evaluation](/session-delivery-resources/demo6-cloud-evaluation.md) |  1:48     |[aka.ms/AAtl1ae](https://aka.ms/AAtl1ae) |
+|  7 - [Image Evaluation](/session-delivery-resources/demo7-image-evaluation.md) |  1:40     |[aka.ms/AAtk56o](https://aka.ms/AAtk56o) |
+|  8 - [GitHub Actions](/session-delivery-resources/demo8-github-actions.md) |   0:56    |[aka.ms/AAtk56n](https://aka.ms/AAtk56n) |
+|  9 - [Online Evaluation & App Insights](/session-delivery-resources/demo9-online-evaluation-app-insights.md) |  1:38     |[aka.ms/AAtkk27](https://aka.ms/AAtkk27) |
 
 ## Change Log
 
