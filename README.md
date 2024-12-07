@@ -4,7 +4,7 @@ https://dcbadge.vercel.app/api/server/ByRwuEEgH4)](https://discord.com/invite/By
 
 ## Session Description
 
-Explore Azure AI Studio’s new tools for generative AI security, privacy, and quality. Shift from reactive risk management to agile, responsible-by-design governance for better observability and efficiency.
+New challenges and threats are emerging as AI evolves. Learn how Azure AI’s advanced responsible AI tooling, including Azure AI Content Safety and built-in safety tools in Azure AI Foundry like evaluations and monitoring, can help mitigate these risks. This session will equip you with essential strategies and tools for deploying responsible AI applications.
 
 ## Learning Outcomes
 
